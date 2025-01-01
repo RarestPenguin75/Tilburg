@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+    <html lang="nl">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="Daan van Gorp">
+            <meta name="description" content="Tilburg">
+            <meta name="keywords" content="Tilburg, Kruikenstad, Textielstad">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tilburg</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+            <style>
+                body                {
+                                    font-family: 'Diphylleia';
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    }      
+
+                .Header             {
+                                    background-image: url('Tilburg.jpg');
+                                    background-size: cover;
+                                    height: 500px;
+                                    color: LightGray;
+                                    text-align: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    
+                                    }
+
+                .Header h1          {
+                                    font-size: 2rem;
+                                    margin: 0;
+                                    }
+
+                .Main               {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    padding: 15px;
+                                    }
+
+                .Links             {
+                                    flex: 1 1 100%;
+                                    padding: 15px;
+                                    }
+
+                .Links ul           {  
+                                    list-style-type: none;
+                                    padding: 0;
+                                    }
+
+                .Links li           {
+                                    background-color: #f4f4f4;
+                                    margin: 10px 0;
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                    }
+
+                .Rechts             {
+                                    flex: 1 1 100%;
+                                    padding: 15px;
+                                    background-color: #e8e8e8;
+                                    }
+
+                .Weetjes            {  
+                                    margin-bottom: 20px;
+                                    display: flex;
+                                    align-items: flex-start;
+                                    gap: 10px;
+                                    }
+
+                .Weetjes img        {
+                                    max-width: 100px;
+                                    border-radius: 5px;
+                                    }
+
+                .footer             {   
+                                    background-color: #333;
+                                    color: white;
+                                    text-align: center;
+                                    padding: 10px;
+                                    }
+                @media (min-width: 768px)   {
+                .Links             {
+                                    flex: 2;
+                                    }
+
+                .Rechts             {
+                                    flex: 9;
+                                    }
+                }
+            </style>
+        </head>
+        <body>
+            <header class="Header">
+                <h1>Tilburg</h1>
+            </header>
+            <main class="Main">
+                <section class="Links">
+                    <ul>
+                        <li><h6>Tilburg is bekend als de textielstad van Nederland.</h6></li>
+                        <li><h6>De Tilburgse kermis is een van de grootste van Europa.</h6></li>
+                        <li><h6>Het centrum heeft een levendige kunst- en cultuurscène.</h6></li>
+                        <li><h6>De Piushaven is een prachtige plek om te wandelen.</h6></li>
+                        <li><h6>Tilburg University staat internationaal goed aangeschreven.</h6></li>
+                    </ul>
+                </section>
+                <section class="Rechts">
+                    <div class="Weetjes">
+                        <div>
+                            <h3>De Efteling</h3>
+                            <p>Een van de populairste toeristische attracties in Nederland, net buiten Tilburg.</p>
+                        </div>
+                        <img src="Efteling.jpg" alt="De Efteling">
+                    </div>
+                    <div class="article">
+                        <div>
+                            <h3>Museum De Pont</h3>
+                            <p>Een modern kunstmuseum met indrukwekkende tentoonstellingen.</p>
+                        </div>
+                        <img src="DePont.jpg" alt="De Pont">
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <p>&copy; 2025 Tilburg, alle rechten voorbehouden.</p>
+                <p> Daan van Gorp </p>
+            </footer>
+        </body>
+    </html>
